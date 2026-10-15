@@ -1,0 +1,197 @@
+.product-detail-page {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #0f0f0f;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  padding-bottom: 90px;
+}
+
+/* Header */
+.detail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  position: sticky;
+  top: 0;
+  background: #0f0f0f;
+  z-index: 10;
+}
+
+.detail-header h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+/* Product Image */
+.product-image {
+  padding: 0 16px;
+}
+
+.product-image img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* Product Info */
+.product-info {
+  padding: 20px 16px;
+}
+
+.category {
+  display: inline-block;
+  background: #2a2a2a;
+  color: #a855f7;
+  font-size: 0.75rem;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.product-info h2 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.best-price {
+  font-size: 1rem;
+  color: #aaa;
+  margin-bottom: 12px;
+}
+
+.best-price strong {
+  color: #4ade80;
+  font-size: 1.3rem;
+}
+
+.description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+/* Price Section */
+.price-section {
+  padding: 0 16px 20px;
+}
+
+.price-section h3 {
+  font-size: 1rem;
+  margin-bottom: 14px;
+  color: #ddd;
+}
+
+.price-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+}
+
+.price-card.best {
+  border-color: #4ade80;
+  background: rgba(74, 222, 128, 0.08);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.left strong {
+  display: block;
+  font-size: 0.95rem;
+}
+
+.best-tag {
+  display: inline-block;
+  background: #4ade80;
+  color: #000;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.order-btn {
+  background: linear-gradient(90deg, #a855f7, #ec4899);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Bottom Bar */
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 480px;
+  background: #1a1a1a;
+  border-top: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  z-index: 20;
+}
+
+.price-info span {
+  display: block;
+  font-size: 0.75rem;
+  color: #aaa;
+}
+
+.price-info strong {
+  font-size: 1.3rem;
+  color: #4ade80;
+}
+
+.main-order-btn {
+  background: linear-gradient(90deg, #a855f7, #ec4899);
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
