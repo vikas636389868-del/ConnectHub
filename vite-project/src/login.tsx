@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Login.css";
+import "./login.css";
 
-const Login: React.FC = () => {
+const login: React.FC = () => {
   const navigate = useNavigate();
 
   const [email, setEmail] = useState("");
@@ -366,4 +366,4 @@ const Login: React.FC = () => {
   );
 };
 
-export default Login;
+export default login;
